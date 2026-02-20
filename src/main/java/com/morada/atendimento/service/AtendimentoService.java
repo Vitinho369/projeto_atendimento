@@ -1,9 +1,6 @@
 package com.morada.atendimento.service;
 
 import java.util.List;
-
-import org.springframework.data.domain.Page;
-import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
 
 import com.morada.atendimento.domain.exceptions.NaoEcontradoException;
