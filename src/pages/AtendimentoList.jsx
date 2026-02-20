@@ -64,7 +64,6 @@ function AtendimentoList() {
 
     return (
         <div className="flex flex-col lg:flex-row gap-8">
-            {/* COLUNA ESQUERDA: PESQUISA + LISTA */}
             <div className="flex-1">
                 <div className="flex mb-4">
                     <input
@@ -119,7 +118,6 @@ function AtendimentoList() {
                 </div>
             </div>
 
-            {/* COLUNA DIREITA: DETALHES */}
             <div className="flex-1">
                 {currentAtendimento ? (
                     <div className="p-4 bg-white rounded shadow">

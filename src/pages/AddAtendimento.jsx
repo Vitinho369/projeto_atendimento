@@ -8,7 +8,6 @@ function AddAtendimento() {
     const [telefoneContato, setTelefoneContato] = useState("");
     const [descricao, setDescricao] = useState("");
     const [status, setStatus] = useState("");
-    const [submitted, setSubmitted] = useState(false);
     const navigate = useNavigate();
 
     const saveAtendimento = () => {
@@ -16,7 +15,6 @@ function AddAtendimento() {
         AtendimentoService.create(data)
             .then((response) => {
                 console.log(response.data);
-                setSubmitted(true);
                 navigate("/atendimentos");
             })
             .catch((e) => {

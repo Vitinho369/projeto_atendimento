@@ -153,7 +153,7 @@ function Atendimento() {
                 </div>
             ) : (
                 <div>
-                    <p>Carregando tutorial...</p>
+                    <p>Carregando Atendimentos...</p>
                 </div>
             )}
         </div>
