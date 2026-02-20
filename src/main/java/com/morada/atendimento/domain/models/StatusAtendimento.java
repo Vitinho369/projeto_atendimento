@@ -1,7 +1,5 @@
 package com.morada.atendimento.domain.models;
 
-import com.fasterxml.jackson.annotation.JsonValue;
-
 public enum StatusAtendimento {
     ABERTO("ABERTO"),
     CONCLUIDO("CONCLUIDO");
