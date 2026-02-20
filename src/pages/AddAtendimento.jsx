@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import AtendimentoService from "../services/atendimentoService";
-import AtendimentoForm from "./AtendimentoForm";
+import AtendimentoForm from "./components/AtendimentoForm";
 
 function AddAtendimento() {
     const [atendimento, setAtendimento] = useState({
