@@ -59,6 +59,8 @@ Para executar o projeto baixe através do GitHub, a partir do seguinte comando:
 git clone https://github.com/Vitinho369/projeto_atendimento.git
 cd projeto_atendimento
 ```
+Baixe o projeto duas vezes, onde você terá que utilizar um projeto
+para ser destinado a executar o Frontend e outro para executar o Backend
 
 Para executar o backend do projeto, execute o seguinte comando para trocar a branch e veja as informações em README.md:
 
